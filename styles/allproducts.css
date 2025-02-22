@@ -1,0 +1,71 @@
+/* Ürün Kartları Bölümü */
+.hJx_KgZ {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.lPt_QrY {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Kartların Düzeni */
+.kRm_YtD {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Her bir Ürün Kartı */
+.sMx_ZyP {
+    width: calc(25% - 20px); /* 4 kart olacak şekilde her biri %25 genişlik */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.sMx_ZyP:hover {
+    transform: scale(1.05); /* Hover efekti */
+}
+
+/* Fotoğrafın kartın içine düzgün şekilde sığması için */
+.pTi_LdF {
+    width: 40%; /* Fotoğrafın kartın tam genişliğine yayılmasını sağla */
+    height: 200px; /* Yükseklik sabitlenmiş */
+    object-fit: cover; /* Fotoğrafın, belirlenen alana sığacak şekilde kesilmeden genişlemesini sağlar */
+    border-radius: 5px; /* Fotoğrafın köşelerini yuvarlat */
+}
+
+.aWp_OiS {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.fVe_YpR {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.jLt_TkN {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.jLt_TkN:hover {
+    background-color: #e64a19;
+}

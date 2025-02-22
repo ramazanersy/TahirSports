@@ -1,0 +1,133 @@
+/* Hakkımızda Bölümü */
+.aZx_YvV {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.cGf_Df {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.nVb_IjW {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mTm_Ls {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.dLg_Bs {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.oTj_Qr {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.vJs_Km {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.vJs_Km:hover {
+    background-color: #e64a19;
+}
+/* Tanışma Formu Bölümü */
+.cYw_XxZ {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.rM_TyR {
+    flex: 1;
+    padding-right: 20px;
+}
+.rM_TyR img {
+    border-radius: 50%;
+}
+
+.kP_LoI {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fG_HnV {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.dA_MnK {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.pX_GsV {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.lP_XsF {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aT_YkC {
+    display: flex;
+    flex-direction: column;
+}
+
+.jK_RmO {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.qX_AhS {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.qX_AhS:focus {
+    border-color: #007bff;
+}
+
+button.nV_TlO {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.nV_TlO:hover {
+    background-color: #e64a19;
+}

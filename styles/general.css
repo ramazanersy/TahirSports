@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;  /* Sayfa içi kaydırma geçişlerini yavaşlatır */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+.navbar .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .nav-links li a:hover {
+    color: brown;
+}
+
+/* Hamburger Menü */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    z-index: 1000;
+}
+/* Mobile için responsive ayarlar */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .navbar .nav-links li a {
+        font-size: 20px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+    .hero-content h1 {
+        font-size: 2em;
+    }
+    
+    .hero-content p {
+        font-size: 1em;
+    }
+    
+    .cta-button {
+        font-size: 1em;
+        padding: 12px 24px;
+    }
+    .categories-title {
+        font-size: 2em;
+    }
+
+    .category-title {
+        font-size: 1.6em;
+    }
+
+    .category-description {
+        font-size: 0.9em;
+    }
+
+    .category-button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+    .section-title {
+        font-size: 2em;
+    }
+
+    .product-name {
+        font-size: 1.6em;
+    }
+
+    .product-description {
+        font-size: 0.9em;
+    }
+
+    .product-price {
+        font-size: 1.2em;
+    }
+
+    .product-btn {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-section h4 {
+        font-size: 1.2em;
+    }
+
+    .footer-bottom {
+        font-size: 1em;
+    }
+    .navbar {
+        height: 300px;
+    }
+    .delikanli_logolar {
+        justify-content: center;  /* Küçük ekranlarda logoları ortala */
+    }
+    
+    .logo_bolgesi {
+        flex: 1 1 40%;  /* Küçük ekranlarda %40 genişlik */
+    }
+    .aZx_YvV {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cGf_Df {
+        padding-right: 0;
+    }
+
+    .mTm_Ls {
+        padding-left: 0;
+    }
+
+    .nVb_IjW {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .cYw_XxZ {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rM_TyR {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .fG_HnV {
+        padding-left: 0;
+    }
+
+    .kP_LoI {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .sMx_ZyP {
+        width: calc(50% - 20px); /* İki kart düzeni */
+    }
+}
+/* Footer genel stil */
+.footer {
+    background-color: #111; /* Koyu arka plan */
+    color: #f1f1f1;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer section stilleri */
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-section h4 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    color: #ff5722; /* Başlıklar için turuncu renk */
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #bbb;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff5722;
+}
+
+/* Footer alt kısmı */
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+}
